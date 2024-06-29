@@ -1,0 +1,6 @@
+.blog-hero {
+    background-image: url('../../assets/banners/blog_banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

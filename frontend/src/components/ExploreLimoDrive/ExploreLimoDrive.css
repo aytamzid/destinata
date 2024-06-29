@@ -1,0 +1,14 @@
+.explore-lomo-container {
+    background-image: url('../../assets/footer/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* zoom out background image */
+ 
+}
+.videoBanner{
+    background-image: url('../../assets/home/video-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

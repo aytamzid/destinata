@@ -1,0 +1,121 @@
+.navbar-ul>li {
+    padding: 36px 0px;
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar-ul>li:hover {
+    color: #D1B096;
+    transition: all 0.2s ease-in-out;
+}
+
+.category-dropdown,
+.cars-dropdown {
+    width: 250px;
+    height: auto;
+    visibility: hidden;
+    background-color: #f9f9f9;
+    position: absolute;
+    transition: all 0.1s ease-in-out;
+    opacity: 0;
+    top: 100%;
+    z-index: -99;
+    padding: 20px 0px;
+
+}
+
+.category:hover .category-dropdown,
+.brands:hover .cars-dropdown {
+    visibility: visible;
+    opacity: 1;
+    z-index: 99;
+}
+
+.category-dropdown li>a,
+.cars-dropdown li>a {
+    color: black;
+    padding: 10px 30px;
+    display: inline-block;
+
+
+}
+
+.cars-dropdown li>a:hover {
+    color: #D1B096;
+    transition: all 0.1s ease-in-out;
+}
+
+.sub-category {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-category-dropdown {
+    width: 250px;
+    height: auto;
+    visibility: hidden;
+    background-color: #f9f9f9;
+    position: absolute;
+    transition: all 0.1s ease-in-out;
+    opacity: 0;
+    top: 10px;
+    left: 100%;
+    z-index: -99;
+    padding: 20px 0px;
+
+}
+
+.sub-category:hover .sub-category-dropdown {
+    visibility: visible;
+    opacity: 1;
+    z-index: 99;
+}
+
+.sub-category:hover .right-arrow {
+    transform: rotate(90deg);
+    transition: all 0.1s ease-in-out;
+}
+
+.sub-category-dropdown li>a {
+    color: black;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.mobile-menu-container {
+    padding: 20px;
+}
+
+.mobile-menu-container a {
+    padding: 20px 0px;
+    font-size: 18px;
+
+}
+
+.mobile-menu-container li {
+    border-bottom: 1px solid #e2ddddd8;
+}
+
+.mobile-sub-menu li:last-child {
+    border-bottom: none;
+}
+
+.goog-te-gadget-simple {
+    background-color: white !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 4px !important;
+    padding: 3px !important;
+    margin: 0px !important;
+    box-shadow: 0px 0px 10px 0px #353535;
+}
+
+.goog-te-gadget-simple img {
+    display: none;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+    display: none;
+}

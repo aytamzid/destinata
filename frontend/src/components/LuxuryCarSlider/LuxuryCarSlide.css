@@ -1,0 +1,27 @@
+.luxuryCarSlide .swiper-button-prev{
+  @apply bg-primary w-[57px] h-[57px] rounded-full
+}
+.luxuryCarSlide .swiper-button-next{
+  @apply bg-primary w-[57px] h-[57px] rounded-full
+}
+.luxuryCarSlide .swiper-button-prev::after{
+@apply text-white text-[18px] font-bold
+}
+.luxuryCarSlide .swiper-button-next::after{
+@apply text-white text-[18px] font-bold
+}
+/* for mobile responsive */
+@media (max-width: 768px) {
+  .luxuryCarSlide .swiper-button-prev{
+    @apply w-[40px] h-[40px]
+  }
+  .luxuryCarSlide .swiper-button-next{
+    @apply w-[40px] h-[40px]
+  }
+  .luxuryCarSlide .swiper-button-prev::after{
+    @apply text-[14px]
+  }
+  .luxuryCarSlide .swiper-button-next::after{
+    @apply text-[14px]
+  }
+}

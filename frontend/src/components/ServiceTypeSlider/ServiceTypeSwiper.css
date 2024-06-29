@@ -1,0 +1,36 @@
+.serviceTypeSwiperClass {
+  display: flex !important;
+}
+
+.serviceTypeSwiperClass .swiper-pagination-bullet {
+  background-color: #d1b0966d;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  margin: 0px 10px !important;
+}
+.serviceTypeSwiperClass .swiper-pagination-bullet-active {
+  background-color: #d1b096;
+}
+.serviceTypeSwiperClass .swiper-slide {
+  border-right: 1px solid #5A5A5A;
+  /* Add border to all slides */
+}
+
+.serviceTypeSwiperClass .swiper-slide .swiper-slide-active:nth-child(2) {
+  border-right: none;
+  /* Remove border for the middle slide */
+}
+
+.serviceTypeSwiperClass .swiper-slide:last-child {
+  border-right: none;
+  /* Remove border for the middle slide */
+}
+
+/* border only show descktop */
+@media only screen and (max-width: 768px) {
+  .serviceTypeSwiperClass .swiper-slide {
+    border-right: none;
+    /* Add border to all slides */
+  }
+}

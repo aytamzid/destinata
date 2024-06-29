@@ -1,0 +1,128 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.headerSwiperClass .swiper-pagination-bullet {
+  background-color: #d1b0966d;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  margin: 10px 10px !important;
+}
+
+.headerSwiperClass .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 152px !important;
+  left: 50%;
+  transform: translateX(-50%);
+  position: relative;
+  z-index: 1 !important;
+  width: max-content;
+}
+
+@media screen and (max-width: 500px) {
+  .headerSwiperClass .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 50px !important;
+  }
+}
+
+.headerSwiperClass .swiper-pagination-bullet-active {
+  background-color: #d1b096;
+}
+
+.custom-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.custom-pagination-item {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-pagination-item.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.carArchiveHeader .swiper-pagination {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 97%;
+  height: 100%;
+  top: 0;
+}
+@media screen and (max-width: 500px) {
+  .carArchiveHeader .swiper-pagination {
+    left: 90%;
+  }
+}
+
+.carArchiveHeader .swiper-pagination-bullet {
+  background-color: #ffffff;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  margin: 10px 10px !important;
+}
+
+.carArchiveHeader .swiper-pagination-bullet-active {
+  background-color: #d1b096;
+
+}
+
+.slider1 {
+  background-image: url('../../assets/home/8.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 102px;
+  background-position: center;
+}
+
+.slider2 {
+  background-image: url('../../assets/home/7.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 102px;
+  background-position: center;
+}
+
+.slider3 {
+  background-image: url('../../assets/home/banner.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 102px;
+  background-position: center;
+}
+
+.carArchiveHeader .slider1 {
+  background-image: url('../../assets/home/9.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 102px;
+  background-position: center;
+}
+
+.carArchiveHeader .slider2 {
+  background-image: url('../../assets/home/7.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 102px;
+  background-position: center;
+}
+
+.carArchiveHeader .slider3 {
+  background-image: url('../../assets/home/8.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 102px;
+  background-position: center;
+}

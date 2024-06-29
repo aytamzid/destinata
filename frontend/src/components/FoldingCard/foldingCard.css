@@ -1,0 +1,80 @@
+:root {
+    --cards: 4;
+    --cardHeight: 640px;
+    --cardTopPadding: 1.7em;
+    --cardMargin: 2vw;
+}
+
+#cards {
+    list-style: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(var(--cards), var(--cardHeight));
+    gap: var(--cardMargin);
+    padding-bottom: calc(var(--cards) * var(--cardTopPadding));
+    margin-bottom: var(--cardMargin);
+}
+
+#card1 {
+    --index: 1;
+}
+
+#card2 {
+    --index: 2;
+}
+
+#card3 {
+    --index: 3;
+}
+
+#card4 {
+    --index: 4;
+}
+
+.card {
+    position: sticky;
+    top: 0;
+    padding-top: calc(var(--index) * var(--cardTopPadding));
+}
+
+#card1 .card-body {
+    background-image: url('../../assets/home/folding1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#card2 .card-body {
+    background-image: url('../../assets/home/folding1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#card3 .card-body {
+    background-image: url('../../assets/home/folding1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#card4 .card-body {
+    background-image: url('../../assets/home/folding1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-body {
+    box-sizing: border-box;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px -26px 79px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -26px 79px -15px rgba(0,0,0,0.75);
+    box-shadow: 0px -26px 79px -15px rgba(0,0,0,0.75);
+    height: var(--cardHeight);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
